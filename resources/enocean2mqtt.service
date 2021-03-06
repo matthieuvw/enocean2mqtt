@@ -1,0 +1,13 @@
+
+[Unit]
+Description=enocean2mqtt
+
+[Install]
+WantedBy=default.target
+
+[Service]
+ExecStart=/home/pi/.local/bin/enocean2mqtt -v --config /home/pi/enocean2mqtt.yaml
+Restart=always
+RestartSec=300
+User=pi
+Environment=PYTHONUNBUFFERED=1

@@ -1,0 +1,38 @@
+
+enocean:
+
+  port: /dev/ttyAMA0
+
+mqtt:
+
+  host: localhost
+  port: 1883
+  client_id: enocean2mqtt
+  topic_prefix: enocean2mqtt
+
+devices:
+
+  - name: temperature_sensor
+    address: [0xFF, 0xFF, 0xFF, 0xFF]
+    eep: [0xa5, 0x02, 0x05]
+    data: ["TMP"]
+
+  - name: soft_remote
+    address: [0xFF, 0xFF, 0xFF, 0xFF]
+    eep: [0xf6, 0x02, 0x02]
+    group_by: ["R1"]
+    data: ["EB"]
+
+  - name: 2ch_relay_switch
+    address: [0xFF, 0xFF, 0xFF, 0xFF]
+    eep: [0xd2, 0x01, 0x01]
+    group_by: ["IO"]
+    data: ["OV"]
+    command: true
+
+  - name: smart_plug
+    address: [0xFF, 0xFF, 0xFF, 0xFF]
+    eep: [0xd2, 0x01, 0x01]
+    group_by: ["IO"]
+    data: ["OV"]
+    command: true
