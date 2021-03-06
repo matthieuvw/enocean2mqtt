@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='enocean2mqtt',
-    version='0.1.4',
+    version='0.2.0',
     keywords = ['enocean', 'mqtt'],
     description='EnOcean to MQTT bridge',
     long_description=long_description,

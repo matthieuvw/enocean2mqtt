@@ -17,7 +17,7 @@ pip installation added python lib to `~/.local/lib` and command `~/.local/bin/en
 
 ## Configure
 
-See [configuration documentation on GitHub](https://github.com/matthieuvw/enocean2mqtt/blob/main/doc/configuration.md)
+Get inspired by [enocean2mqtt-sample.yaml](https://github.com/matthieuvw/enocean2mqtt/blob/main/resources/enocean2mqtt-sample.yaml) and/or read [configuration documentation on GitHub](https://github.com/matthieuvw/enocean2mqtt/blob/main/doc/configuration.md)
 
 ## Run manually
 
