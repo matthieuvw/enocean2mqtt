@@ -26,13 +26,6 @@ Get inspired by [enocean2mqtt-sample.yaml](https://github.com/matthieuvw/enocean
 ~/.local/bin/enocean2mqtt --config /your/path/enocean2mqtt.yaml --verbose --log-file /your/path/enocean2mqtt.log
 ```
 
-Args:
-| Short | Long       | Required | Description                      |
-| :---- | :--------- | :------: | :------------------------------- |
-| -c    | --config   | yes      | yaml config file                 |
-| -v    | --verbose  | no       | Set logging level to DEBUG       |
-| N/A   | --log-file | no       | Add daily rotating log file path |
-
 ## Run as a systemd service
 
 > Sample made for Raspbian 10 and `pi` user
