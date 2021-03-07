@@ -10,10 +10,7 @@ It is based on [Python EnOcean](https://github.com/kipe/enocean) and [Eclipse Pa
 ```
 pip install encoean2mqtt --user
 ```
-
-For Linux systems pip install package by default in `~/.local/lib` (check with `python -m site --user-site`)
-pip installation added python lib to `~/.local/lib` and command `~/.local/bin/enocean2mqtt`
-(add `export PATH="$HOME/bin:$PATH"` to file `~/.bashrc`)
+For Linux systems pip install lib to `~/.local/lib` and executable to `~/.local/bin` (check with `python -m site`).
 
 ## Configure
 
